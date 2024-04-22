@@ -28,7 +28,5 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest rich
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Run the script
-      run: |
-        python rich.py
+        python sample_rich.py
 
