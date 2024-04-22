@@ -2,6 +2,8 @@ import time
 
 from rich.progress import Progress
 
+print("Starting up!")
+
 with Progress() as progress:
 
     task1 = progress.add_task("[red]Downloading...", total=10)
